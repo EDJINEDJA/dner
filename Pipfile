@@ -18,8 +18,18 @@ joblib = "*"
 types-pyyaml = "*"
 flask = "*"
 flask-cors = "*"
-mlproject = {editable = true, file = "file:///home/lnit/Bureau/mlops"}
 pre-commit = "*"
+python-dotenv = "*"
+pytest = "*"
+requests = "*"
+django = "*"
+django-rest-framework = "*"
+django-cors-headers = "*"
+djoser = "*"
+pillow = "*"
+stripe = "*"
+django-ckeditor = "*"
+mlproject = {editable = true, file = "file:///home/lnit/Bureau/Logiciel/dner"}
 
 [dev-packages]
 

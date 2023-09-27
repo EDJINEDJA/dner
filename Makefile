@@ -6,7 +6,7 @@ install:
 	pipenv --python $(version)
 	pipenv run pre-commit install
 	sleep 1
-	pipenv run pip install -r requirements.txt
+	pipenv install -r requirements.txt
 	chmod -x deploy.sh
 activate:
 	@echo "virtualenv activate ..."
