@@ -19,6 +19,7 @@ types-pyyaml = "*"
 flask = "*"
 flask-cors = "*"
 mlproject = {editable = true, file = "file:///home/lnit/Bureau/mlops"}
+pre-commit = "*"
 
 [dev-packages]
 
